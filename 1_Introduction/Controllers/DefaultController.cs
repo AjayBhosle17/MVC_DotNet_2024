@@ -6,22 +6,22 @@ using System.Web.Mvc;
 
 namespace _1_Introduction.Controllers
 {
-    [RoutePrefix("Default")]
+    
 
     public class DefaultController : Controller
     {
         // GET: Default
 
-        [Route("Ajju")]
-        public ActionResult Index1()
+       
+        public string Index1()
         {
-            return View();
+            return "hiii";
         }
 
         [Route("Details/Ajju")]
         public ActionResult Group() {
 
-            return View();
+            return View("Index1");
         }
     }
 }

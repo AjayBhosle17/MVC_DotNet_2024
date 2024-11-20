@@ -110,6 +110,10 @@
     <Content Include="Views\Default\Index1.cshtml" />
     <Content Include="Views\Product\Index2.cshtml" />
     <Content Include="Views\Default\Group.cshtml" />
+    <Content Include="Views\Product\listing.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\MeraWala\my_file.cshtml" />
+    <Content Include="Views\MeraWala\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
