@@ -1,0 +1,108 @@
+﻿
+@*@using _2_Razor.Utility*@
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <div>
+        <h1>Create Category</h1>
+        <table>
+            <tr>
+                <td>Id</td>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rating
+                </td>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+
+                    <input type="button" value="Create" />
+
+                </td>
+            </tr>
+        </table>
+        @*Using HTML Helper class*@
+
+        <h2> Using Html Helper Class</h2>
+
+        Textbox: @Html.TextBox("name")
+        <br />
+        Password: @Html.Password("passwd")
+
+        Radio : @Html.RadioButton("Nationality", false)Indian <br />
+        Radio : @Html.RadioButton("Nationality", true)Other <br />
+
+        checkbox : @Html.CheckBox("Eduaction")Graduated <br />
+
+        textArea: @Html.TextArea("address", new { cols = "40", rows = "4" })
+
+        <br />
+        UserName : @Html.TextBox("user")
+
+        <br />
+
+        HTML Link : <a href="https://google.com">Google</a>
+
+        Html Helper Link : @Html.ActionLink("https://google.com", "google")
+
+        <br /> <br />
+
+        <button>Normal Button</button>
+        <button>Submit Button</button>
+
+        <br /><br />
+
+        @Html.Button("button", "Normal Button")
+        @Html.Button("button", "Submit Button")
+
+        @*Use C# with HTML*@
+
+        <ul>
+            <li>Ajay</li>
+            <li>Vijay</li>
+            <li>Vikas</li>
+        </ul>
+        <br />
+
+        @{
+            List<string> names = new List<string>() { "ajay", "Vikas", "Anjali" };
+
+
+            <ul>
+                @foreach (string name in names)
+                {
+
+                    <li>@name</li>
+                }
+            </ul>
+        }
+
+    </div>
+
+    <div>
+      
+    </div>
+
+
+
+
+</body>
+</html>

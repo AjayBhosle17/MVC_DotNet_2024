@@ -1,0 +1,58 @@
+﻿@using _2_Razor.Models
+
+@model IEnumerable<_2_Razor.Models.Category>
+
+@{
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <title>Category</title>
+
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <h2 style="text-align:center">Category Page</h2>
+    <div>
+        <p>
+            @Html.ActionLink("Create New category", "Create")
+            <br />
+
+            @Html.ActionLink("Strongly Typed View", "CreateCategory")
+        </p>
+        <br />
+
+        <table class="table table-bordered table-striped table-responsive">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Rating</th>
+
+                </tr>
+            </thead>
+            <tbody >
+                @foreach (Category item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Rating</td>
+                    </tr>
+                   
+
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>

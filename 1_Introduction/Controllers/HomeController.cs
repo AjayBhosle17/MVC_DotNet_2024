@@ -13,5 +13,10 @@ namespace _1_Introduction.Controllers
         {
             return "Happy Coding";
         }
+
+        public ActionResult Create() { 
+        
+            return View();
+        }
     }
 }

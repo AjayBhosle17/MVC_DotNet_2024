@@ -1,0 +1,50 @@
+﻿@model _2_Razor.Models.Category
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateCategory</title>
+</head>
+<body>
+    <div> 
+        <h1>Strongly Typed View</h1>
+        
+        <table>
+            <tr>
+                <td>
+                    Id
+                </td>
+                <td>@Html.TextBoxFor(ajju => ajju.Id)</td>
+            </tr>
+
+            <tr>
+                <td>Name</td>
+                <td>@Html.TextBoxFor(model => model.Name)</td>
+            </tr>
+            <tr>
+                <td>Rating</td>
+                <td>@Html.TextBoxFor(model => model.Rating)</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <br />
+        <h3>Sample Category Sent from Controller </h3>
+
+        <p>Id : @Model.Id</p>
+        <p>Name: @Model.Name</p>
+        <p>Rating: @Model.Rating</p>
+
+        @Html.ActionLink("Back to Page", "index")
+
+
+        
+    </div>
+</body>
+</html>

@@ -32,5 +32,10 @@ namespace _1_Introduction.Controllers
             return View("~/MeraWala/my_file.cshtml");
 
         }
+
+        public ActionResult MyData3() {
+
+            return View();
+        }
     }
 }
