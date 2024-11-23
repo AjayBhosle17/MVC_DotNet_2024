@@ -3,56 +3,30 @@
   "WorkspaceRootPath": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\4_controler_to_view\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|solutionrelative:4_controler_to_view\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_controler_to_view\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|solutionrelative:4_controler_to_view\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_controler_to_view\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|solutionrelative:4_controler_to_view\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_view_to_controller\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_controler_to_view\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|solutionrelative:4_controler_to_view\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F485FA1-B313-42BA-907C-647F7B2B1EB7}|3_Types_Of_View\\3_Types_Of_View.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\3_types_of_view\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F485FA1-B313-42BA-907C-647F7B2B1EB7}|3_Types_Of_View\\3_Types_Of_View.csproj|solutionrelative:3_types_of_view\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\views\\shared\\_self_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\views\\shared\\_self_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_controler_to_view\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07D7A52C-950A-43DF-984E-56D9744F97D7}|4_Controler_to_VIew\\4_Controler_to_VIew.csproj|solutionrelative:4_controler_to_view\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|5_View_to_Controller||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F485FA1-B313-42BA-907C-647F7B2B1EB7}|3_Types_Of_View\\3_Types_Of_View.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\3_types_of_view\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F485FA1-B313-42BA-907C-647F7B2B1EB7}|3_Types_Of_View\\3_Types_Of_View.csproj|solutionrelative:3_types_of_view\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\multiple_layout\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|solutionrelative:multiple_layout\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\multiple_layout\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|solutionrelative:multiple_layout\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\multiple_layout\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|solutionrelative:multiple_layout\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\multiple_layout\\views\\shared\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|solutionrelative:multiple_layout\\views\\shared\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\multiple_layout\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AACCFEF-D0BC-40E8-9A15-6B6AE74CC3C0}|Multiple_LayOut\\Multiple_LayOut.csproj|solutionrelative:multiple_layout\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F485FA1-B313-42BA-907C-647F7B2B1EB7}|3_Types_Of_View\\3_Types_Of_View.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\3_types_of_view\\views\\product\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F485FA1-B313-42BA-907C-647F7B2B1EB7}|3_Types_Of_View\\3_Types_Of_View.csproj|solutionrelative:3_types_of_view\\views\\product\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,22 +36,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\3_Types_Of_View\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "3_Types_Of_View\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\3_Types_Of_View\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "3_Types_Of_View\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T13:26:39.233Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -92,153 +52,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Web.config",
-              "RelativeDocumentMoniker": "4_Controler_to_VIew\\Web.config",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Web.config",
-              "RelativeToolTip": "4_Controler_to_VIew\\Web.config",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-23T09:53:22.919Z",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "5_View_to_Controller\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "5_View_to_Controller\\Views\\Home\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T10:44:35.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Self_Layout1.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Shared\\_Self_Layout1.cshtml",
+              "RelativeDocumentMoniker": "5_View_to_Controller\\Views\\Shared\\_Self_Layout1.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Shared\\_Self_Layout1.cshtml",
+              "RelativeToolTip": "5_View_to_Controller\\Views\\Shared\\_Self_Layout1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T10:46:37.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index1.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Views\\Home\\Index1.cshtml",
-              "RelativeDocumentMoniker": "4_Controler_to_VIew\\Views\\Home\\Index1.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Views\\Home\\Index1.cshtml",
-              "RelativeToolTip": "4_Controler_to_VIew\\Views\\Home\\Index1.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T08:37:06.665Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "5_View_to_Controller\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "5_View_to_Controller\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:00:14.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "4_Controler_to_VIew\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "4_Controler_to_VIew\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAA0AAAA",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "5_View_to_Controller\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "5_View_to_Controller\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T08:16:06.043Z",
+              "WhenOpened": "2024-11-25T10:51:26.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "4_Controler_to_VIew\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "4_Controler_to_VIew\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T08:15:21.878Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "5_View_to_Controller\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "5_View_to_Controller\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T10:19:02.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Global.asax.cs",
-              "RelativeDocumentMoniker": "4_Controler_to_VIew\\Global.asax.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\4_Controler_to_VIew\\Global.asax.cs",
-              "RelativeToolTip": "4_Controler_to_VIew\\Global.asax.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T08:15:33.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_layout.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\3_Types_Of_View\\Views\\Shared\\_layout.cshtml",
-              "RelativeDocumentMoniker": "3_Types_Of_View\\Views\\Shared\\_layout.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\3_Types_Of_View\\Views\\Shared\\_layout.cshtml",
-              "RelativeToolTip": "3_Types_Of_View\\Views\\Shared\\_layout.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T06:59:44.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index1.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Views\\Home\\Index1.cshtml",
-              "RelativeDocumentMoniker": "Multiple_LayOut\\Views\\Home\\Index1.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Views\\Home\\Index1.cshtml",
-              "RelativeToolTip": "Multiple_LayOut\\Views\\Home\\Index1.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T06:39:38.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Multiple_LayOut\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Multiple_LayOut\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T06:22:15.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_About.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Views\\Shared\\_About.cshtml",
-              "RelativeDocumentMoniker": "Multiple_LayOut\\Views\\Shared\\_About.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Views\\Shared\\_About.cshtml",
-              "RelativeToolTip": "Multiple_LayOut\\Views\\Shared\\_About.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T06:44:15.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Views\\Shared\\_Header.cshtml",
-              "RelativeDocumentMoniker": "Multiple_LayOut\\Views\\Shared\\_Header.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Views\\Shared\\_Header.cshtml",
-              "RelativeToolTip": "Multiple_LayOut\\Views\\Shared\\_Header.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T06:29:05.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Multiple_LayOut\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\Multiple_LayOut\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Multiple_LayOut\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T06:21:22.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index1.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\3_Types_Of_View\\Views\\Product\\Index1.cshtml",
-              "RelativeDocumentMoniker": "3_Types_Of_View\\Views\\Product\\Index1.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\3_Types_Of_View\\Views\\Product\\Index1.cshtml",
-              "RelativeToolTip": "3_Types_Of_View\\Views\\Product\\Index1.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T07:41:09.244Z",
+              "Title": "5_View_to_Controller",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\5_View_to_Controller.csproj",
+              "RelativeDocumentMoniker": "5_View_to_Controller\\5_View_to_Controller.csproj",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\5_View_to_Controller.csproj",
+              "RelativeToolTip": "5_View_to_Controller\\5_View_to_Controller.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T11:05:21.596Z",
               "EditorCaption": ""
             }
           ]

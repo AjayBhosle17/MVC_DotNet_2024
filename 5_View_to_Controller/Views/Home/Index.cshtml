@@ -1,0 +1,30 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        input{
+            display:block;
+            margin:0 auto;
+            color:#f0d643;
+            background-color:black;
+
+        }
+    </style>
+</head>
+<body>
+    <div> 
+        <h1 style="text-align:center">Home Page 1 Index</h1>
+
+        <form action="@Url.Action("Details", "Home", new {productId=11,Name = "shirt",Price=1200})">
+            <input type="hidden" name="productId" value="12"/>
+            <input  type="submit" value="Send Data"/>
+            @Html.ActionLink("Details Page", "Details", "Home", new { productId = 12, Name = "Shirt", Price = 200 },null)
+        </form>
+    </div>
+</body>
+</html>
