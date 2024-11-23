@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index 1 View </title>
+</head>
+<body>
+    <div>
+
+        <h1 style="text-align:center"> Index 1 View</h1>
+
+
+        @Html.ActionLink("Index2", "Index1")
+
+        @*ViewData@
+
+        <p>ViewData Value : @ViewData["name"]</p>
+        @*In UpperCase*@
+        <p>ViewData Value in UpperCase: @ViewData["name"].ToString().ToUpper()</p>
+
+        <p> ViewData access using ViewBag : @ViewBag.name</p>
+        <br />
+
+        @*ViewBag*@
+
+
+        <p>ViewBag Value : @ViewBag.email</p>
+        <p>ViewBag in Uppercase: @ViewBag.email.ToUpper()</p>
+        <p> Viewbag access using ViewData : @ViewData["email"]</p>
+
+        <br />
+
+        @*TempData*@
+
+        @*<p>Tempdata value : @TempData["username"]</p>*@
+        @*<p>TempData Value using peek : @TempData.Peek("username")</p>*@
+
+        @*@TempData.Peek("username")*@
+        @{
+            TempData.Keep("username");
+        }
+      @*  @TempData.Keep("username");*@   error@* *@ 
+
+        <p> Session value : @Session["IsLogged"]</p>
+
+
+    </div>
+</body>
+</html>

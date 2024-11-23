@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_layout</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="bg-warning p-5 m-3 text-white">
+            Header Section
+        </div>
+        <div class="row">
+
+            @if (IsSectionDefined("SideLinks"))
+            {
+                <div class="col-3">
+
+                    @RenderSection("SideLinks", false)
+                </div>
+            }
+            else
+            {
+                <div class="col-3">
+
+                    <span>No Link Available</span>
+                </div>
+
+            }
+
+            <div class="bg-info p-5 m-3 col">
+                @RenderBody()
+            </div>
+        </div>
+        <div class="bg-secondary p-5 m-3 text-white">
+            Footer Section
+        </div>
+    </div>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>

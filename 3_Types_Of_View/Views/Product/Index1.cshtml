@@ -1,0 +1,43 @@
+﻿
+@model _3_Types_Of_View.Models.Product
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class=" container">
+
+        @*@Html.Partial("_Header")*@
+
+        @*@{
+                Html.RenderPartial("_Header",100);
+            }*@
+
+        @{
+            Html.RenderAction("Header");
+        }
+
+        @*Multiple Request*@
+
+        @* @Html.Action("Index")
+            @Html.Action("Header")*@
+
+        @Html.Partial("_Register_section")
+        <h1>Product Index1  View</h1>
+
+        @Html.ActionLink("Back to Page", "Index")
+
+
+    </div>
+    @Html.Partial("_footer")
+
+</body>
+</html>
+

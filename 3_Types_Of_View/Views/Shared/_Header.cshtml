@@ -1,0 +1,22 @@
+﻿@*@model int*@
+<ul class="nav bg-info">
+    <li class="nav-item ">
+        @* <a class="nav-link active" href="#">Home</a>
+        *@
+        @Html.ActionLink("Index", "Index", null, new { @class = "nav-item nav-link" })
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#">About US</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Contact Us</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Something</a>
+    </li>
+
+    @*<li class="nav-item">
+
+        @Html.ActionLink($"Data: {Model}","")
+    </li>*@
+</ul>

@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index1</title>
+</head>
+<body>
+    <div>
+        <h2 style="text-align:center">Index 2 View Page</h2>
+        <span>ViewData value is : @ViewData["Name"]</span>
+
+        <br /><br />
+        <p>Tempdata value : @TempData["username"]</p>
+        <p>Tempdata value In UpperCase: @TempData["username"]</p>
+
+
+        <br />
+
+        <p> Session value : @Session["IsLogged"]</p>
+
+        <br />
+
+        @Html.ActionLink("Back To Page", "Index")
+    </div>
+</body>
+</html>
