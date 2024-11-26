@@ -67,6 +67,87 @@ namespace _6_Scaffolding_CRUD.Controllers
             return View();
         }
 
+        /*Details*/
 
+        [HttpGet]
+
+        public ActionResult Details(int id)
+        {
+            if (Session["products"] != null) {
+
+                List<Category> obj = (List<Category>)Session["products"];
+
+                Category obj1 = obj.FirstOrDefault(model=>model.Id==id);
+
+                return View(obj1);
+            }
+            return RedirectToAction("Index");
+        }
+
+
+        /*Edit*/
+
+        [HttpGet]
+        public ActionResult Edit(int id) {
+
+            if (Session["products"] != null) {
+
+                List<Category> obj = (List<Category>)Session["products"];
+                Category obj1 = obj.FirstOrDefault(x => x.Id == id);
+                return View(obj1);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Category cat) {
+
+            if (Session["products"] != null) {
+
+                List<Category> obj = (List<Category>)Session["products"];
+
+                foreach (var item in obj) {
+
+                    if (item.Id == cat.Id) { 
+                    
+                        item.Name=cat.Name;
+                        item.Price=cat.Price;
+                      
+
+                        break;
+                    }
+                }
+                Session["products"] = obj;
+
+                return RedirectToAction("Index");
+
+            }
+            List<Category> obj1 = (List<Category>)Session["products"];
+            Category obj2 = obj1.FirstOrDefault(x => x.Id == cat.Id);
+            return View(obj2);
+        }
+
+        /*Delete*/
+
+        [HttpGet]
+        public ActionResult Delete(int id) {
+
+            if (Session["products"] != null) {
+
+                List<Category> obj = (List<Category>)Session["products"];
+
+                Category obj1 = obj.FirstOrDefault(x => x.Id == id);
+                obj.Remove(obj1);
+
+                Session["products"]=obj;
+                return RedirectToAction("Index");
+            }
+
+            List<Category> obj2 = (List<Category>)Session["products"];
+            Category obj3= obj2.FirstOrDefault(x => x.Id == id);
+            return View(obj3);
+        }
+       
     }
 }

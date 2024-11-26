@@ -1,0 +1,19 @@
+﻿@model _7_Bootstrap_Login_Register.Models.LoginViewModel
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Login</h2>
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Enter your email" })
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Password</label>
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Enter your password" })
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+    }
+</div>

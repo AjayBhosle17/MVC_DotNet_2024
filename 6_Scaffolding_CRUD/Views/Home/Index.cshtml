@@ -1,11 +1,9 @@
 ﻿@model IEnumerable<_6_Scaffolding_CRUD.Models.Category>
 
 
-    <p style="display:block; width:50%; background-color:azure">
-        @Html.ActionLink("Create New", "Create")
-    </p>
-    <div style="height:330px">
-        <table class="table table-bordered table-striped ">
+    
+    <div style="height:330px;">
+        <table class="table table-bordered table-danger table-striped " >
             <tr>
                 <th>
                     @Html.DisplayNameFor(model => model.Id)
@@ -33,10 +31,12 @@
                         <td>
                             @Html.DisplayFor(modelItem => item.Price)
                         </td>
-                        <td>
-                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                        <td class="px-3 btn btn-outline-dark btn-info text-decoration-none">
+                            <span class="btn" style="background-color:lightpink"> @Html.ActionLink("Edit", "Edit", new { id = item.Id })</span>  |
+                            <span class="btn" style="background-color:yellowgreen">
+                                @Html.ActionLink("Details", "Details", new { id = item.Id })
+                            </span> |
+                            <span class="btn" style="background-color:lightskyblue"> @Html.ActionLink("Delete", "Delete", new { id = item.Id })</span>
                         </td>
                     </tr>
                 }
