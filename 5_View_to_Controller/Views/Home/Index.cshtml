@@ -1,4 +1,4 @@
-﻿
+﻿@model _5_View_to_Controller.Models.Product
 
 <!DOCTYPE html>
 
@@ -20,11 +20,63 @@
     <div> 
         <h1 style="text-align:center">Home Page 1 Index</h1>
 
-        <form action="@Url.Action("Details", "Home", new {productId=11,Name = "shirt",Price=1200})">
+       @* <form action="@Url.Action("Create", "Home")">
             <input type="hidden" name="productId" value="12"/>
             <input  type="submit" value="Send Data"/>
             @Html.ActionLink("Details Page", "Details", "Home", new { productId = 12, Name = "Shirt", Price = 200 },null)
         </form>
+        <br />
+
+        <form  method="post">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name"/></td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td><input type="text" name="price" /></td>
+                </tr>
+                <tr>
+                    
+                    <td><input type="submit" value="Create" /></td>
+                </tr>
+            </table>
+        </form>*@
+        <br />
+       @* @using (Html.BeginForm("Create","Home",FormMethod.Post))*@ 
+        @using(Html.BeginForm())
+            {
+
+                <table>
+                    <tr>
+                        <td>Id</td>
+                        <td>@Html.EditorFor(model => model.Id)</td>
+
+
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td>@Html.EditorFor(model => model.Name)</td>
+
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>@Html.EditorFor(model => model.Price)</td>
+
+                    </tr>
+                   
+
+                    <tr>
+                        <td>
+                            <br />
+                            <input style="display:block;margin-left:auto" type="submit" value="Add A Product :)" />
+                        </td>
+
+                    </tr>
+                </table>
+            }
+       
     </div>
 </body>
 </html>

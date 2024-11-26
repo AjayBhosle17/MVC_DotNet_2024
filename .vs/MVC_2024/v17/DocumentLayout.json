@@ -3,30 +3,28 @@
   "WorkspaceRootPath": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_scaffolding_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|solutionrelative:6_scaffolding_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_scaffolding_crud\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|solutionrelative:6_scaffolding_crud\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_view_to_controller\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\6_scaffolding_crud\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|solutionrelative:6_scaffolding_crud\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_scaffolding_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|solutionrelative:6_scaffolding_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\views\\shared\\_self_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|solutionrelative:5_view_to_controller\\views\\shared\\_self_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_scaffolding_crud\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|solutionrelative:6_scaffolding_crud\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|5_View_to_Controller||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}|5_View_to_Controller\\5_View_to_Controller.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\5_view_to_controller\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\6_scaffolding_crud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|solutionrelative:6_scaffolding_crud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,8 +34,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "6_Scaffolding_CRUD\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "6_Scaffolding_CRUD\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T12:58:29.222Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -52,79 +64,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "5_View_to_Controller\\Views\\Home\\Details.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "5_View_to_Controller\\Views\\Home\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T10:44:35.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Self_Layout1.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Shared\\_Self_Layout1.cshtml",
-              "RelativeDocumentMoniker": "5_View_to_Controller\\Views\\Shared\\_Self_Layout1.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Shared\\_Self_Layout1.cshtml",
-              "RelativeToolTip": "5_View_to_Controller\\Views\\Shared\\_Self_Layout1.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T10:46:37.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\Home\\create.cshtml",
+              "RelativeDocumentMoniker": "6_Scaffolding_CRUD\\Views\\Home\\create.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\Home\\create.cshtml",
+              "RelativeToolTip": "6_Scaffolding_CRUD\\Views\\Home\\create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T13:44:24.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "5_View_to_Controller\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "5_View_to_Controller\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "6_Scaffolding_CRUD\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "6_Scaffolding_CRUD\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T10:00:14.498Z",
+              "WhenOpened": "2024-11-26T12:18:03.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "5_View_to_Controller\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "5_View_to_Controller\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "6_Scaffolding_CRUD\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "6_Scaffolding_CRUD\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T10:51:26.923Z",
+              "WhenOpened": "2024-11-26T12:58:24.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "5_View_to_Controller\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "5_View_to_Controller\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwAwAAAAaAAAA",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "6_Scaffolding_CRUD\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "6_Scaffolding_CRUD\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T10:19:02.107Z",
+              "WhenOpened": "2024-11-26T12:27:57.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "5_View_to_Controller",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\5_View_to_Controller.csproj",
-              "RelativeDocumentMoniker": "5_View_to_Controller\\5_View_to_Controller.csproj",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\5_View_to_Controller\\5_View_to_Controller.csproj",
-              "RelativeToolTip": "5_View_to_Controller\\5_View_to_Controller.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-25T11:05:21.596Z",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "6_Scaffolding_CRUD\\Models\\Category.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Models\\Category.cs",
+              "RelativeToolTip": "6_Scaffolding_CRUD\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:19:16.304Z",
               "EditorCaption": ""
             }
           ]

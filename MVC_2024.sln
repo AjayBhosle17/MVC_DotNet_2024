@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Controler_to_VIew", "4_Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_View_to_Controller", "5_View_to_Controller\5_View_to_Controller.csproj", "{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Scaffolding_CRUD", "6_Scaffolding_CRUD\6_Scaffolding_CRUD.csproj", "{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC19BA8-73FE-4AB1-81F0-DD6D70E42831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
