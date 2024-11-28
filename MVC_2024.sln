@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Scaffolding_CRUD", "6_Sca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Login_Register", "7_Login_Register\7_Login_Register.csproj", "{1B9D4A04-660A-4247-8A38-2C985E11D756}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_Database_Connectivity_With_CRUD", "8_Database_Connectivity_With_CRUD\8_Database_Connectivity_With_CRUD.csproj", "{75F503DE-6264-4FE0-A646-8E66E092A0F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1B9D4A04-660A-4247-8A38-2C985E11D756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B9D4A04-660A-4247-8A38-2C985E11D756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B9D4A04-660A-4247-8A38-2C985E11D756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F503DE-6264-4FE0-A646-8E66E092A0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F503DE-6264-4FE0-A646-8E66E092A0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F503DE-6264-4FE0-A646-8E66E092A0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F503DE-6264-4FE0-A646-8E66E092A0F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
