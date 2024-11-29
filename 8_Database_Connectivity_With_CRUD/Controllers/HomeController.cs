@@ -13,7 +13,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
         // GET: Home
 
         [HttpGet]
-        public ActionResult Index()
+        public ActionResult Index(string search)
         {
             List<Product> products = new List<Product>();
 
@@ -34,8 +34,20 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                 connection = new SqlConnection(connectionString);
                 connection.Open(); // connection is prepare
 
+/* When u write input to seach*/
 
-                string query = "select * from Product";  // Query Prepare
+                string query = string.Empty;
+                if (string.IsNullOrEmpty(search)) {
+                    query = "select * from Product";  // Query Prepare
+
+                }
+                else
+                {
+
+                    query = $"select * from Product where Name like '%{search}%'";
+
+                }
+
                 SqlCommand cmd = new SqlCommand(query, connection);
                 SqlDataReader reader = cmd.ExecuteReader();  // command Executed
 

@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_database_connectivity_with_crud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|solutionrelative:8_database_connectivity_with_crud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\8_database_connectivity_with_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|solutionrelative:8_database_connectivity_with_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_database_connectivity_with_crud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|solutionrelative:8_database_connectivity_with_crud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_database_connectivity_with_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|solutionrelative:8_database_connectivity_with_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_database_connectivity_with_crud\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|solutionrelative:8_database_connectivity_with_crud\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\8_database_connectivity_with_crud\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_database_connectivity_with_crud\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|solutionrelative:8_database_connectivity_with_crud\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_scaffolding_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D18CA1CF-8B38-498D-853F-A50CA35CBE2B}|6_Scaffolding_CRUD\\6_Scaffolding_CRUD.csproj|solutionrelative:6_scaffolding_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_database_connectivity_with_crud\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|solutionrelative:8_database_connectivity_with_crud\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_database_connectivity_with_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|solutionrelative:8_database_connectivity_with_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75F503DE-6264-4FE0-A646-8E66E092A0F0}|8_Database_Connectivity_With_CRUD\\8_Database_Connectivity_With_CRUD.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_database_connectivity_with_crud\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,50 +74,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Create.cshtml",
-              "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Create.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Create.cshtml",
-              "RelativeToolTip": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T13:18:29.669Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Controllers\\HomeController.cs",
               "RelativeToolTip": "8_Database_Connectivity_With_CRUD\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAAAAwOgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAHcBAAAAAAAAAAAiwIsBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T12:36:12.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "6_Scaffolding_CRUD\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "6_Scaffolding_CRUD\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAuwBQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T10:08:23.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Models\\Product.cs",
               "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Models\\Product.cs",
@@ -134,7 +116,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T13:09:06.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Create.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T13:18:29.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Delete.cshtml",
               "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Delete.cshtml",
@@ -142,12 +149,11 @@
               "RelativeToolTip": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Delete.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T06:21:19.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T06:21:19.519Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Edit.cshtml",
               "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Edit.cshtml",
@@ -155,25 +161,11 @@
               "RelativeToolTip": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Edit.cshtml",
               "ViewState": "AgIAACIAAAAAAAAAAAAhwDQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T12:49:38.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T12:49:38.275Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T13:09:06.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Views\\Home\\Details.cshtml",
@@ -185,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\8_Database_Connectivity_With_CRUD\\Global.asax.cs",
               "RelativeDocumentMoniker": "8_Database_Connectivity_With_CRUD\\Global.asax.cs",
@@ -197,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "6_Scaffolding_CRUD\\Views\\Shared\\_Layout.cshtml",
@@ -209,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\6_Scaffolding_CRUD\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "6_Scaffolding_CRUD\\Views\\Home\\Index.cshtml",
@@ -221,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Signup.cshtml",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\7_Login_Register\\Views\\Account\\Signup.cshtml",
               "RelativeDocumentMoniker": "7_Login_Register\\Views\\Account\\Signup.cshtml",
@@ -233,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\7_Login_Register\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "7_Login_Register\\App_Start\\RouteConfig.cs",
@@ -245,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\7_Login_Register\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "7_Login_Register\\Views\\Account\\Index.cshtml",
@@ -257,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\7_Login_Register\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "7_Login_Register\\Controllers\\AccountController.cs",
@@ -269,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\7_Login_Register\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "7_Login_Register\\Views\\_ViewStart.cshtml",
@@ -281,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\7_Login_Register\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "7_Login_Register\\Views\\Shared\\_Layout.cshtml",
