@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data;
 
 namespace _8_Database_Connectivity_With_CRUD.Controllers
 {
@@ -34,21 +35,34 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                 connection = new SqlConnection(connectionString);
                 connection.Open(); // connection is prepare
 
-/* When u write input to seach*/
+                /* When u write input to seach*/
 
-                string query = string.Empty;
-                if (string.IsNullOrEmpty(search)) {
-                    query = "select * from Product";  // Query Prepare
+                /* string query = string.Empty;*/
 
-                }
-                else
-                {
+                /*Using Stored Procedure*/
 
-                    query = $"select * from Product where Name like '%{search}%'";
 
-                }
 
+
+                /* using Query*/
+                /* if (string.IsNullOrEmpty(search)) {
+                     query = "select * from Product";  // Query Prepare
+
+                 }
+                 else
+                 {
+
+                     query = $"select * from Product where Name like '%{search}%'";
+
+                 }*/
+
+                string query = "UspgetProc";
                 SqlCommand cmd = new SqlCommand(query, connection);
+                
+                /*using stored proce*/
+                cmd.CommandType= CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Search",search);
+                
                 SqlDataReader reader = cmd.ExecuteReader();  // command Executed
 
                 if (reader != null)
@@ -109,7 +123,9 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                 connection.Open(); // connection is prepare
 
 
-                string query = $"select * from Product where Id={id}";  // Query Prepare
+               string query = $"select * from Product where Id={id}";  // Query Prepare
+
+
                 SqlCommand cmd = new SqlCommand(query, connection);
                 SqlDataReader reader = cmd.ExecuteReader();  // command Executed
 
@@ -211,15 +227,33 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
             {
                 connection = new SqlConnection(connectionString);
 
-                string query = $"update Product set Name='{product.Name}', Price={product.Price} where Id ={product.Id}";
+               // string query = $"update Product set Name='{product.Name}', Price={product.Price} where Id ={product.Id}";
+
+                /* Using Stored Procedure*/
+
+                string query = "uspUpdateProduct";
 
                 SqlCommand cmd = new SqlCommand(query, connection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id",product.Id);
+                cmd.Parameters.AddWithValue("@Name", product.Name);
+                cmd.Parameters.AddWithValue("@Price", product.Price);
+
+                SqlParameter status = new SqlParameter()
+                {
+                    ParameterName = "@status",
+                   SqlDbType = SqlDbType.Bit,
+                    Direction= ParameterDirection.Output
+                };
+
+                cmd.Parameters.Add(status);
+
                 connection.Open();
                 int numberOfRowsAffected=cmd.ExecuteNonQuery();
                 
 
 
-                if (numberOfRowsAffected > 0)
+                if (numberOfRowsAffected > 0 && (bool)status.Value)
                 {
                     return RedirectToAction("Index");
                 }
@@ -266,14 +300,44 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
             try
             {
                 connection = new SqlConnection(connectionString);
-                string query = $"insert into Product values( '{product.Name}',{product.Price})";
+                /* string query = $"insert into Product values( '{product.Name}',{product.Price})";*/
+
+                /*Used Stored Procedure*/
+
+                string query = "uspCreateCategory";
+
+
 
                 SqlCommand cmd = new SqlCommand(query, connection);
+                cmd.CommandType=CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Name", product.Name);
+                cmd.Parameters.AddWithValue("@Price", product.Price);
+
+                SqlParameter id = new SqlParameter()
+                {
+                    ParameterName = "@Id",
+                    SqlDbType=SqlDbType.Int,
+                    Direction = ParameterDirection.Output
+                };
+
+                cmd.Parameters.Add(id);
+
+                SqlParameter status = new SqlParameter()
+                {
+                    ParameterName = "@Status",
+                    SqlDbType = SqlDbType.Bit,
+                    Direction = ParameterDirection.Output
+                };
+
+                cmd.Parameters.Add(status);
+
+
+
                 connection.Open();
 
                 int numberOfROwsAffected = cmd.ExecuteNonQuery();
 
-                if (numberOfROwsAffected > 0)
+                if (numberOfROwsAffected > 0 && (bool)status.Value && (int)id.Value>0)
                 {
                     return RedirectToAction("Index");
                 }
@@ -368,12 +432,30 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                 connection.Open();
 
                 // SQL query to delete the product by ID
-                string query = $"DELETE FROM Product WHERE Id = {id}";
+                // string query = $"DELETE FROM Product WHERE Id = {id}";
+
+
+                // using stored procedure
+
+                string query = "uspDeleteProduct";
+
 
                 SqlCommand cmd = new SqlCommand(query, connection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id", id);
+
+                SqlParameter status = new SqlParameter()
+                {
+                    ParameterName = "@status",
+                    SqlDbType = SqlDbType.Bit,
+                    Direction = ParameterDirection.Output
+                };
+                cmd.Parameters.Add(status);                
+                
+                
                 int numberOfRowsAffected = cmd.ExecuteNonQuery();
 
-                if (numberOfRowsAffected > 0)
+                if (numberOfRowsAffected > 0 && (bool)status.Value)
                 {
                     return RedirectToAction("Index");
                 }
@@ -398,5 +480,58 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
             }
         }
 
+        public ActionResult GetSubProduct(int id) {
+
+            List<SubProduct> product = new List<SubProduct>();
+
+            string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
+
+            SqlConnection connection = null;
+            try
+            {
+                connection = new SqlConnection(connectionString);
+                connection.Open();
+
+                string query = $"select * from subProductId where Id = {id}";
+
+                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader != null && reader.HasRows)
+                {
+
+                    while (reader.Read())
+                    {
+                        SubProduct p = new SubProduct()
+                        {
+                            Id = (int)reader["Id"],
+                            Name = (string)reader["Name"],
+                            Price = (int)reader["Price"]
+                        };
+                        product.Add(p);
+                    }
+                }
+                return View(product);
+            }
+            catch (Exception ex)
+            {
+
+                return RedirectToAction("Index");
+                //ViewBag.ErrorMessage = "An error occurred: " + ex.Message;
+
+            }
+            finally
+            {
+
+                if (connection != null)
+                {
+                    connection.Close();
+                }
+            }
+            return View(product);
+        }
+
     }
 }
+
+
