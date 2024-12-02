@@ -156,20 +156,21 @@ end
 -- clickable product
 
 
-create table subProductId(Id int primary key identity,Name varchar(20),Price int)
+create table Product(Id int primary key identity,Name varchar(20),Price int)
 
 insert into Product Values('Laptop',5000),('TV',2000),('Grocerry',7000),('Furniture',1000)
+
+create table SubProduct(Id int primary key identity,Name varchar(20),Price int,Product_Id int foreign key references Product(Id))
+insert into SubProduct values 
+('shirt 1', 599, 1), ('shirt 2', 299, 1), ('kids shirt 1', 599, 2)
+
+
 alter table Product add subProductId int foreign key references Product(Id) 
 
-select * from subProductId
-update subProductId set Name = 'Shirt' where Name = 'Furniture'
-
-insert into subProductId values 
-('shirt 1', 599), ('shirt 2', 299), ('kids shirt 1', 599)
-
 select * from Product
+select * from SubProduct where Product_Id
 
-update subProductId set subProductId = 4 where Id in (2,3)
+
 
 
 

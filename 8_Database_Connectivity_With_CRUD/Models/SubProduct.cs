@@ -10,5 +10,7 @@ namespace _8_Database_Connectivity_With_CRUD.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public int Price { get; set; }
+        public int Product_Id { get; set; }
+
     }
 }

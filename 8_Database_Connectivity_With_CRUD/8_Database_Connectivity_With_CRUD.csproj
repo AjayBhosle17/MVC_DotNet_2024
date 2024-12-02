@@ -119,6 +119,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DBConstant.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\SubProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

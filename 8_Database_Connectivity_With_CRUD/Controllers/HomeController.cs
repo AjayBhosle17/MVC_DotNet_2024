@@ -6,100 +6,161 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Data;
+using System.Configuration;
+using System.Drawing;
+using System.Web.UI.WebControls;
 
 namespace _8_Database_Connectivity_With_CRUD.Controllers
 {
     public class HomeController : Controller
     {
+        // storing connection string in web.config
+        /*
+                string _connectionString = string.Empty;
+                public HomeController() {
+
+                    _connectionString = ConfigurationManager.ConnectionStrings["MVCDB2024"].ConnectionString;
+                }*/
+
+
+        #region data Adapter
+
+        public ActionResult Index(string search) {
+
+            List<Product> product = new List<Product>();
+
+            SqlConnection connection = new SqlConnection(DBConstant.ConnectionString);
+
+            SqlCommand cmd = new SqlCommand(DBConstant.spgetProc, connection);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Search",search);
+
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+
+            if(ds!=null && ds.Tables!=null && ds.Tables.Count > 0)
+            {
+                DataTable dt = ds.Tables[0];
+
+                if(dt!=null && dt.Rows!=null && dt.Rows.Count > 0)
+                {
+                    foreach(DataRow row in dt.Rows)
+                    {
+                        Product pd = new Product()
+                        {
+                            Id = (int)row["Id"],
+                            Name =(string)row["Name"],
+                            Price = (int)row["Price"]
+                        };
+                        product.Add(pd);
+                    }
+                }
+            }
+            return View(product);
+        }
+
+        #endregion
+
         // GET: Home
 
-        [HttpGet]
-        public ActionResult Index(string search)
+
+        #region sqldataReader
+        /* 
+         [HttpGet]
+         public ActionResult Index(string search)
+         {
+             List<Product> products = new List<Product>();
+
+             // ado.net to read all Product from Product table
+             //string connectionString = "server=113.193.63.106,55010;database=B24ADONETDB;user id=b24;password=b24";
+             //string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
+
+
+             //Sql Connection
+             *//*
+                         SqlConnection connection = new SqlConnection();
+                         connection.ConnectionString = connectionString;*//*
+             //above 2 line convert in 1 line
+
+             SqlConnection connection = null;
+             try
+             {
+                 connection = new SqlConnection(DBConstant.ConnectionString);
+                 connection.Open(); // connection is prepare
+
+                 *//* When u write input to seach*/
+
+        /* string query = string.Empty;*/
+
+        /*Using Stored Procedure*/
+
+
+
+
+        /* using Query*/
+        /* if (string.IsNullOrEmpty(search)) {
+             query = "select * from Product";  // Query Prepare
+
+         }
+         else
+         {
+
+             query = $"select * from Product where Name like '%{search}%'";
+
+         }*/
+
+        /*string query = "UspgetProc";*//*
+        SqlCommand cmd = new SqlCommand(DBConstant.spgetProc, connection);
+
+        *//*using stored proce*//*
+        cmd.CommandType= CommandType.StoredProcedure;
+        cmd.Parameters.AddWithValue("@Search",search);
+
+        SqlDataReader reader = cmd.ExecuteReader();  // command Executed
+
+        if (reader != null)
         {
-            List<Product> products = new List<Product>();
 
-            // ado.net to read all Product from Product table
-            //string connectionString = "server=113.193.63.106,55010;database=B24ADONETDB;user id=b24;password=b24";
-            string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
-
-
-            //Sql Connection
-            /*
-                        SqlConnection connection = new SqlConnection();
-                        connection.ConnectionString = connectionString;*/
-            //above 2 line convert in 1 line
-
-            SqlConnection connection = null;
-            try
+            if (reader.HasRows)
             {
-                connection = new SqlConnection(connectionString);
-                connection.Open(); // connection is prepare
-
-                /* When u write input to seach*/
-
-                /* string query = string.Empty;*/
-
-                /*Using Stored Procedure*/
-
-
-
-
-                /* using Query*/
-                /* if (string.IsNullOrEmpty(search)) {
-                     query = "select * from Product";  // Query Prepare
-
-                 }
-                 else
-                 {
-
-                     query = $"select * from Product where Name like '%{search}%'";
-
-                 }*/
-
-                string query = "UspgetProc";
-                SqlCommand cmd = new SqlCommand(query, connection);
-                
-                /*using stored proce*/
-                cmd.CommandType= CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Search",search);
-                
-                SqlDataReader reader = cmd.ExecuteReader();  // command Executed
-
-                if (reader != null)
+                while (reader.Read())
                 {
 
-                    if (reader.HasRows)
+                    Product product = new Product()
                     {
-                        while (reader.Read())
-                        {
-
-                            Product product = new Product()
-                            {
-                                Id = (int)reader["Id"],
-                                Name = (string)reader["Name"],
-                                Price = (int)reader["Price"]
-                            };
-                            products.Add(product);
-                        }
-                    }
-
+                        Id = (int)reader["Id"],
+                        Name = (string)reader["Name"],
+                        Price = (int)reader["Price"]
+                    };
+                    products.Add(product);
                 }
             }
-            catch
-            {
-                return View(products);
-            }
-            finally
-            {
-                if (connection != null)
-                {
-                    connection.Close();
-                }
-            }
-            return View(products);
-
 
         }
+    }
+    catch
+    {
+        return View(products);
+    }
+    finally
+    {
+        if (connection != null)
+        {
+            connection.Close();
+        }
+    }
+    return View(products);
+
+
+}
+*/
+
+        #endregion sqldataReader
+
 
 
         [HttpGet]
@@ -108,7 +169,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
             Product products = null;
 
             // ado.net to read all Product from Product table
-            string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
+            //string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
 
             //Sql Connection
             /*
@@ -119,7 +180,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
             SqlConnection connection = null;
             try
             {
-                connection = new SqlConnection(connectionString);
+                connection = new SqlConnection(DBConstant.ConnectionString);
                 connection.Open(); // connection is prepare
 
 
@@ -169,12 +230,12 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
 
             Product product = null;
 
-            string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
+            //string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
 
             SqlConnection connection = null;
             try
             {
-                connection = new SqlConnection(connectionString);
+                connection = new SqlConnection(DBConstant.ConnectionString);
                 connection.Open();
 
                 string query = $"select * from Product where Id = {id}";
@@ -197,7 +258,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
                 return View(product);
@@ -219,21 +280,21 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
         public ActionResult Edit(Product product)
         {
             // Connection string to the database
-            string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
+            //string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
 
             SqlConnection connection = null;
 
             try
             {
-                connection = new SqlConnection(connectionString);
+                connection = new SqlConnection(DBConstant.ConnectionString);
 
                // string query = $"update Product set Name='{product.Name}', Price={product.Price} where Id ={product.Id}";
 
                 /* Using Stored Procedure*/
 
-                string query = "uspUpdateProduct";
+               /* string query = "uspUpdateProduct";*/
 
-                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlCommand cmd = new SqlCommand(DBConstant.spUpdateProduct, connection);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@Id",product.Id);
                 cmd.Parameters.AddWithValue("@Name", product.Name);
@@ -275,7 +336,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                     connection.Close();
                 }
             }
-            return View(product);
+         /*   return View(product);*/
         }
         
 
@@ -293,22 +354,22 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
 
 
             // Connection string to the database
-            string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
+            //string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
 
             SqlConnection connection = null;
 
             try
             {
-                connection = new SqlConnection(connectionString);
+                connection = new SqlConnection(DBConstant.ConnectionString);
                 /* string query = $"insert into Product values( '{product.Name}',{product.Price})";*/
 
                 /*Used Stored Procedure*/
 
-                string query = "uspCreateCategory";
+               /* string query = "uspCreateCategory";*/
 
 
 
-                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlCommand cmd = new SqlCommand(DBConstant.spCreateCategory, connection);
                 cmd.CommandType=CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@Name", product.Name);
                 cmd.Parameters.AddWithValue("@Price", product.Price);
@@ -348,7 +409,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return View(product);
             }
@@ -361,7 +422,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                  
                 }
             }
-            return View(product);
+            /*return View(product);*/
         }
 
 
@@ -371,12 +432,12 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
         public ActionResult Delete(int id) {
             Product product = null;
 
-            string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
+            //string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
 
             SqlConnection connection = null;
             try
             {
-                connection = new SqlConnection(connectionString);
+                connection = new SqlConnection(DBConstant.ConnectionString);
                 connection.Open();
 
                 string query = $"select * from Product where Id = {id}";
@@ -399,7 +460,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
                 return View(product);
@@ -422,13 +483,13 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             // Connection string to the database
-            string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
+            //string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
 
             SqlConnection connection = null;
 
             try
             {
-                connection = new SqlConnection(connectionString);
+                connection = new SqlConnection(DBConstant.ConnectionString);
                 connection.Open();
 
                 // SQL query to delete the product by ID
@@ -437,10 +498,10 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
 
                 // using stored procedure
 
-                string query = "uspDeleteProduct";
+               /* string query = "uspDeleteProduct";*/
 
 
-                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlCommand cmd = new SqlCommand(DBConstant.spDeleteProduct, connection);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@Id", id);
 
@@ -465,10 +526,10 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                     return RedirectToAction("Index");
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 // Handle exceptions
-                ViewBag.ErrorMessage = "An error occurred: " + ex.Message;
+                ViewBag.ErrorMessage = "An error occurred: ";
                 return RedirectToAction("Index");
             }
             finally
@@ -480,19 +541,20 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
             }
         }
 
+        [HttpGet]
         public ActionResult GetSubProduct(int id) {
 
             List<SubProduct> product = new List<SubProduct>();
 
-            string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
+            //string connectionString = "server=DESKTOP-IBP9IN1\\SQLEXPRESS;database=MVCDB;integrated security=true";
 
             SqlConnection connection = null;
             try
             {
-                connection = new SqlConnection(connectionString);
+                connection = new SqlConnection(DBConstant.ConnectionString);
                 connection.Open();
 
-                string query = $"select * from subProductId where Id = {id}";
+                string query = $"select * from SubProduct where Product_Id = {id}";
 
                 SqlCommand cmd = new SqlCommand(query, connection);
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -513,7 +575,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                 }
                 return View(product);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 return RedirectToAction("Index");
@@ -528,7 +590,7 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
                     connection.Close();
                 }
             }
-            return View(product);
+            /*return View(product);*/
         }
 
     }
