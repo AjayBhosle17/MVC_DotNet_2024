@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_Database_Connectivity_Wit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_EF_Crud_usingDB_First_Approch", "9_EF_Crud_usingDB_First_Approch\9_EF_Crud_usingDB_First_Approch.csproj", "{2055D4A5-3187-40D6-8331-AFAD48DBB461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Task_Bind_Fetch", "9_Task_Bind_Fetch\9_Task_Bind_Fetch.csproj", "{D2B126D7-0F65-4431-9F1A-2E78B743FF4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2055D4A5-3187-40D6-8331-AFAD48DBB461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2055D4A5-3187-40D6-8331-AFAD48DBB461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2055D4A5-3187-40D6-8331-AFAD48DBB461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B126D7-0F65-4431-9F1A-2E78B743FF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B126D7-0F65-4431-9F1A-2E78B743FF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B126D7-0F65-4431-9F1A-2E78B743FF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B126D7-0F65-4431-9F1A-2E78B743FF4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,205 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Store</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Styling -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            background-color: #007bff;
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #ffdd57 !important;
+            }
+
+        .dropdown-menu {
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #0056b3;
+            color: white !important;
+        }
+
+        #productList {
+            margin-top: 30px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: none; /* Initially hidden */
+        }
+
+        .table th, .table td {
+            text-align: center;
+        }
+
+        h3 {
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: #f9f9f9;
+        }
+
+        .no-products-message {
+            color: #ff6347;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .product-section {
+            background-color: #f1f3f5;
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+            .product-card:hover {
+                transform: scale(1.05);
+            }
+
+            .product-card h4 {
+                color: #007bff;
+            }
+
+            .product-card p {
+                color: #555;
+            }
+
+            .product-card .price {
+                color: #28a745;
+                font-weight: bold;
+            }
+
+
+        /* Subcategory Name Styling */
+        .subcategory-name {
+            color: #007bff;
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Product Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    @foreach (var category in Model)
+                    {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu_@category.Id" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                @category.Name
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu_@category.Id">
+                                @foreach (var subCategory in category.SubCategories)
+                                {
+                                    <li>
+                                        <a class="dropdown-item" href="#" onclick="loadProducts(@subCategory.Id, '@subCategory.Name')">
+                                            @subCategory.Name
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Products Section -->
+    <div class="container mt-5 product-section">
+        <h3>Products</h3>
+        <div id="subcategoryName" class="subcategory-name" style="display:none;">
+            <!-- Subcategory Name will show here -->
+        </div>
+        <div id="productList">
+            <!-- Products will load here -->
+        </div>
+        <div id="emptyState" style="display:none;">
+            <p class="no-products-message">Please select a category to view products.</p>
+        </div>
+    </div>
+
+    <!-- Script to Load Products -->
+    <script>
+        // Initially, show the empty state message
+        $(document).ready(function() {
+            $('#emptyState').show();
+        });
+
+        function loadProducts(subCategoryId, subCategoryName) {
+            // Show the selected subcategory name
+            $('#subcategoryName').text('Viewing products from: ' + subCategoryName).show();
+            $('#emptyState').hide(); // Hide the empty state message
+            $('#productList').fadeIn(); // Show the product list area
+
+            $.ajax({
+                url: '@Url.Action("GetProductsBySubCategory", "Category")',
+                type: 'GET',
+                data: { subCategoryId: subCategoryId },
+                success: function (data) {
+                    if (data.length === 0) {
+                        $('#productList').html('<div class="no-products-message">No products available in this category!</div>');
+                    } else {
+                        let html = '';
+                        data.forEach(product => {
+                            html += `
+                                <div class="product-card">
+                                    <h4>${product.Name}</h4>
+                                    <p>${product.Description}</p>
+                                    <p class="price">&#8377;${product.Price}</p>
+                                </div>
+                            `;
+                        });
+                        $('#productList').html(html);
+                    }
+                },
+                error: function () {
+                    alert('Error loading products!');
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
