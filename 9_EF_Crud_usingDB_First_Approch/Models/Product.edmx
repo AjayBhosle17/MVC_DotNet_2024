@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="ProductContext.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="ProductContext.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Product">
           <Key>
             <PropertyRef Name="Id" />
@@ -13,11 +13,45 @@
           <Property Name="Name" Type="varchar" MaxLength="20" />
           <Property Name="Price" Type="int" />
         </EntityType>
+        <EntityType Name="SubProduct">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="20" />
+          <Property Name="Price" Type="int" />
+          <Property Name="Product_Id" Type="int" />
+        </EntityType>
+        <Association Name="FK__SubProduc__Produ__73BA3083">
+          <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+          <End Role="SubProduct" Type="Self.SubProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SubProduct">
+              <PropertyRef Name="Product_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="uspGetProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProductId" Type="int" Mode="In" />
+        </Function>
+        <Function Name="uspUpdateProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="Name" Type="varchar" Mode="In" />
+          <Parameter Name="Price" Type="int" Mode="In" />
+          <Parameter Name="Status" Type="bit" Mode="InOut" />
+        </Function>
         <EntityContainer Name="ProductContextStoreContainer">
           <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SubProduct" EntityType="Self.SubProduct" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__SubProduc__Produ__73BA3083" Association="Self.FK__SubProduc__Produ__73BA3083">
+            <End Role="Product" EntitySet="Product" />
+            <End Role="SubProduct" EntitySet="SubProduct" />
+          </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="ProductContext" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -28,10 +62,53 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="Price" Type="Int32" />
+          <NavigationProperty Name="SubProducts" Relationship="ProductContext.FK__SubProduc__Produ__73BA3083" FromRole="Product" ToRole="SubProduct" />
         </EntityType>
         <EntityContainer Name="DatabaseConnection" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Products" EntityType="Self.Product" />
+          <EntitySet Name="SubProducts" EntityType="ProductContext.SubProduct" />
+          <AssociationSet Name="FK__SubProduc__Produ__73BA3083" Association="ProductContext.FK__SubProduc__Produ__73BA3083">
+            <End Role="Product" EntitySet="Products" />
+            <End Role="SubProduct" EntitySet="SubProducts" />
+          </AssociationSet>
+          <FunctionImport Name="GetProduct_Data" EntitySet="SubProducts" ReturnType="Collection(ProductContext.SubProduct)">
+          <Parameter Name="ProductId" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="uspUpdateProduct">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="Price" Mode="In" Type="Int32" />
+            <Parameter Name="Status" Mode="InOut" Type="Boolean" />
+          </FunctionImport>
         </EntityContainer>
+        <EntityType Name="SubProduct">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="Product_Id" Type="Int32" />
+          <NavigationProperty Name="Product" Relationship="ProductContext.FK__SubProduc__Produ__73BA3083" FromRole="SubProduct" ToRole="Product" />
+        </EntityType>
+        <Association Name="FK__SubProduc__Produ__73BA3083">
+          <End Type="ProductContext.Product" Role="Product" Multiplicity="0..1" />
+          <End Type="ProductContext.SubProduct" Role="SubProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SubProduct">
+              <PropertyRef Name="Product_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <ComplexType Name="uspGetProduct_Result">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="20" />
+          <Property Type="Int32" Name="Price" Nullable="true" />
+          <Property Type="Int32" Name="Product_Id" Nullable="true" />
+        </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -47,6 +124,19 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="SubProducts">
+            <EntityTypeMapping TypeName="ProductContext.SubProduct">
+              <MappingFragment StoreEntitySet="SubProduct">
+                <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="GetProduct_Data" FunctionName="ProductContext.Store.uspGetProduct">
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="uspUpdateProduct" FunctionName="ProductContext.Store.uspUpdateProduct" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

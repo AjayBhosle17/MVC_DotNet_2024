@@ -8,7 +8,42 @@
     <Property Name="Name" Type="varchar" MaxLength="20" />
     <Property Name="Price" Type="int" />
   </EntityType>
+  <EntityType Name="SubProduct">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" />
+    <Property Name="Price" Type="int" />
+    <Property Name="Product_Id" Type="int" />
+  </EntityType>
+  <Association Name="FK__SubProduc__Produ__73BA3083">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="SubProduct" Type="Self.SubProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SubProduct">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="uspGetProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProductId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="uspUpdateProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Price" Type="int" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="InOut" />
+  </Function>
   <EntityContainer Name="ProductContextStoreContainer">
     <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubProduct" EntityType="Self.SubProduct" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__SubProduc__Produ__73BA3083" Association="Self.FK__SubProduc__Produ__73BA3083">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="SubProduct" EntitySet="SubProduct" />
+    </AssociationSet>
   </EntityContainer>
 </Schema>

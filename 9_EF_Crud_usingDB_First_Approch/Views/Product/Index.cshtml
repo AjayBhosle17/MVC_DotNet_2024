@@ -39,7 +39,8 @@
     @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Name)
+                @*@Html.DisplayFor(modelItem => item.Name)*@
+                @Html.ActionLink(item.Name, "Index", "SubProduct", new { Product_Id = item.Id},null)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)

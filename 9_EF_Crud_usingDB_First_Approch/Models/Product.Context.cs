@@ -12,6 +12,8 @@ namespace _9_EF_Crud_usingDB_First_Approch.Models
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class DatabaseConnection : DbContext
     {
@@ -26,5 +28,41 @@ namespace _9_EF_Crud_usingDB_First_Approch.Models
         }
     
         public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<SubProduct> SubProducts { get; set; }
+    
+        public virtual ObjectResult<SubProduct> GetProduct_Data(Nullable<int> productId)
+        {
+            var productIdParameter = productId.HasValue ?
+                new ObjectParameter("ProductId", productId) :
+                new ObjectParameter("ProductId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SubProduct>("GetProduct_Data", productIdParameter);
+        }
+    
+        public virtual ObjectResult<SubProduct> GetProduct_Data(Nullable<int> productId, MergeOption mergeOption)
+        {
+            var productIdParameter = productId.HasValue ?
+                new ObjectParameter("ProductId", productId) :
+                new ObjectParameter("ProductId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SubProduct>("GetProduct_Data", mergeOption, productIdParameter);
+        }
+    
+        public virtual int uspUpdateProduct(Nullable<int> id, string name, Nullable<int> price, ObjectParameter status)
+        {
+            var idParameter = id.HasValue ?
+                new ObjectParameter("Id", id) :
+                new ObjectParameter("Id", typeof(int));
+    
+            var nameParameter = name != null ?
+                new ObjectParameter("Name", name) :
+                new ObjectParameter("Name", typeof(string));
+    
+            var priceParameter = price.HasValue ?
+                new ObjectParameter("Price", price) :
+                new ObjectParameter("Price", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("uspUpdateProduct", idParameter, nameParameter, priceParameter, status);
+        }
     }
 }

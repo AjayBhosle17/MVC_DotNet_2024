@@ -7,8 +7,51 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="Price" Type="Int32" />
+    <NavigationProperty Name="SubProducts" Relationship="ProductContext.FK__SubProduc__Produ__73BA3083" FromRole="Product" ToRole="SubProduct" />
   </EntityType>
   <EntityContainer Name="DatabaseConnection" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="SubProducts" EntityType="ProductContext.SubProduct" />
+    <AssociationSet Name="FK__SubProduc__Produ__73BA3083" Association="ProductContext.FK__SubProduc__Produ__73BA3083">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="SubProduct" EntitySet="SubProducts" />
+    </AssociationSet>
+    <FunctionImport Name="GetProduct_Data" EntitySet="SubProducts" ReturnType="Collection(ProductContext.SubProduct)">
+      <Parameter Name="ProductId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="uspUpdateProduct">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Price" Mode="In" Type="Int32" />
+      <Parameter Name="Status" Mode="InOut" Type="Boolean" />
+    </FunctionImport>
   </EntityContainer>
+  <EntityType Name="SubProduct">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Product_Id" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="ProductContext.FK__SubProduc__Produ__73BA3083" FromRole="SubProduct" ToRole="Product" />
+  </EntityType>
+  <Association Name="FK__SubProduc__Produ__73BA3083">
+    <End Type="ProductContext.Product" Role="Product" Multiplicity="0..1" />
+    <End Type="ProductContext.SubProduct" Role="SubProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SubProduct">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="uspGetProduct_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="Price" Nullable="true" />
+    <Property Type="Int32" Name="Product_Id" Nullable="true" />
+  </ComplexType>
 </Schema>

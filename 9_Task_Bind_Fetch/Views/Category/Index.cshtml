@@ -1,7 +1,4 @@
-﻿@{
-    Layout = null;
-}
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="~/Scripts/bootstrap.bundle.min.js"></script>
 
-    <!-- Custom Styling -->
+    
     <style>
         body {
             background-color: #f8f9fa;
@@ -19,7 +16,7 @@
         }
 
         .navbar {
-            background-color: #007bff;
+            background-color: lightskyblue;
         }
 
         .navbar-brand, .navbar-nav .nav-link {
@@ -44,9 +41,9 @@
             margin-top: 30px;
             background-color: white;
             border-radius: 8px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+           
             padding: 20px;
-            display: none; /* Initially hidden */
+            display: none; 
         }
 
         .table th, .table td {
@@ -74,7 +71,7 @@
             background-color: #f1f3f5;
             padding: 40px 20px;
             border-radius: 10px;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        
         }
 
         .product-card {
@@ -103,7 +100,7 @@
             }
 
 
-        /* Subcategory Name Styling */
+        
         .subcategory-name {
             color: #007bff;
             font-size: 20px;
@@ -112,19 +109,22 @@
         }
     </style>
 </head>
-<body>
+<body class="container">
 
     <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Product Store</a>
+            <a class="navbar-brand" href="https://amazon.com">Product Store</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    @foreach (var category in Model)
+
+                    @if (Model != null)
                     {
+                        foreach (var category in Model)
+                        {
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu_@category.Id" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 @category.Name
@@ -140,6 +140,11 @@
                                 }
                             </ul>
                         </li>
+                        }
+                }
+                else
+                    {
+                        <span> No Categories Available</span>
                     }
                 </ul>
             </div>
@@ -160,18 +165,18 @@
         </div>
     </div>
 
-    <!-- Script to Load Products -->
+    <!-- Load Product data here -->
     <script>
-        // Initially, show the empty state message
+        
         $(document).ready(function() {
             $('#emptyState').show();
         });
 
         function loadProducts(subCategoryId, subCategoryName) {
-            // Show the selected subcategory name
+          
             $('#subcategoryName').text('Viewing products from: ' + subCategoryName).show();
-            $('#emptyState').hide(); // Hide the empty state message
-            $('#productList').fadeIn(); // Show the product list area
+            $('#emptyState').hide(); 
+            $('#productList').show();
 
             $.ajax({
                 url: '@Url.Action("GetProductsBySubCategory", "Category")',
