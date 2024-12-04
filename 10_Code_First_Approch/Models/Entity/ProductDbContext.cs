@@ -14,6 +14,7 @@ namespace _10_Code_First_Approch.Models.Entity
 
         //}
         public DbSet<Category> categories { get; set; }
+        public DbSet<Product> products { get; set; }
 
 
     }

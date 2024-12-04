@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -107,14 +108,36 @@
     <Compile Include="Migrations\202412041345056_IntialDatabase.Designer.cs">
       <DependentUpon>202412041345056_IntialDatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202412042015225_CategoryTableUpdate.cs" />
+    <Compile Include="Migrations\202412042015225_CategoryTableUpdate.Designer.cs">
+      <DependentUpon>202412042015225_CategoryTableUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412042056145_ProductTableAdded.cs" />
+    <Compile Include="Migrations\202412042056145_ProductTableAdded.Designer.cs">
+      <DependentUpon>202412042056145_ProductTableAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412042103059_UpdateProduct.cs" />
+    <Compile Include="Migrations\202412042103059_UpdateProduct.Designer.cs">
+      <DependentUpon>202412042103059_UpdateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412042124157_addCategoryTable.cs" />
+    <Compile Include="Migrations\202412042124157_addCategoryTable.Designer.cs">
+      <DependentUpon>202412042124157_addCategoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412070900378_addProductDetails.cs" />
+    <Compile Include="Migrations\202412070900378_addProductDetails.Designer.cs">
+      <DependentUpon>202412070900378_addProductDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entity\Caegory.cs" />
+    <Compile Include="Models\Entity\Product.cs" />
     <Compile Include="Models\Entity\ProductDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
+    <Content Include="Views\Category\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -124,12 +147,25 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Views\Category\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202412041345056_IntialDatabase.resx">
       <DependentUpon>202412041345056_IntialDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412042015225_CategoryTableUpdate.resx">
+      <DependentUpon>202412042015225_CategoryTableUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412042056145_ProductTableAdded.resx">
+      <DependentUpon>202412042056145_ProductTableAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412042103059_UpdateProduct.resx">
+      <DependentUpon>202412042103059_UpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412042124157_addCategoryTable.resx">
+      <DependentUpon>202412042124157_addCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412070900378_addProductDetails.resx">
+      <DependentUpon>202412070900378_addProductDetails.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

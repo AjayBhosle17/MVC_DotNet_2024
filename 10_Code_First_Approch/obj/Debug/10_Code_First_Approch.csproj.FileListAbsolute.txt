@@ -76,3 +76,7 @@ D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\bin\EntityFramework.xml
 D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\bin\EntityFramework.SqlServer.xml
 D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_First_Approch.Migrations.IntialDatabase.resources
 D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\10_Code_First_Approch.csproj.GenerateResource.cache
+D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_First_Approch.Migrations.CategoryTableUpdate.resources
+D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_First_Approch.Migrations.ProductTableAdded.resources
+D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_First_Approch.Migrations.UpdateProduct.resources
+D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_First_Approch.Migrations.addCategoryTable.resources
