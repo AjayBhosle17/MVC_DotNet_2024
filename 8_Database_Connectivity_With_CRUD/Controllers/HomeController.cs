@@ -192,7 +192,6 @@ namespace _8_Database_Connectivity_With_CRUD.Controllers
 
                 if (reader != null)
                 {
-
                     if (reader.HasRows)
                     {
                         while (reader.Read())

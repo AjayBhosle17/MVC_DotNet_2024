@@ -33,7 +33,7 @@ namespace _9_EF_Crud_usingDB_First_Approch.Controllers
         [HttpGet]
         public ActionResult Create() { 
         
-            Product product = new Product();
+            
             return View();
         }
 
@@ -49,6 +49,19 @@ namespace _9_EF_Crud_usingDB_First_Approch.Controllers
                 return RedirectToAction("Index");
             }
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+
+        public ActionResult Details(int id) {
+
+            Product product = _db.Products.Find(id);
+
+            if (product == null) {
+
+                return ViewBag.name = "No Details Avialble";
+            }
+            return View(product);
         }
     }
 }
