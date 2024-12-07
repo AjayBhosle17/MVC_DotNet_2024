@@ -80,3 +80,4 @@ D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_Firs
 D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_First_Approch.Migrations.ProductTableAdded.resources
 D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_First_Approch.Migrations.UpdateProduct.resources
 D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_First_Approch.Migrations.addCategoryTable.resources
+D:\Coding2\Ajay V#\MVC_DotNet_2024\10_Code_First_Approch\obj\Debug\_10_Code_First_Approch.Migrations.addProductDetails.resources

@@ -10,8 +10,11 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
 </head>
-<body>
+<body class="container" data-bs-theme="dark">
     <p>
         @Html.ActionLink("Create New", "Create")
     </p>
@@ -35,9 +38,9 @@
                 @Html.DisplayFor(modelItem => item.Rating)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }, new {@class="btn btn-primary"}) |
+                @Html.ActionLink("Details", "Details", new { id=item.Id }, new { @class = "btn btn-Warning" }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id }, new { @class = "btn btn-info" })
             </td>
         </tr>
     }
