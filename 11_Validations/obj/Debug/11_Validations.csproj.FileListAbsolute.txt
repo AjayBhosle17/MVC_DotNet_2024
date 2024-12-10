@@ -76,3 +76,7 @@ D:\Coding2\Ajay V#\MVC_DotNet_2024\11_Validations\obj\Debug\11_Validations.dll
 D:\Coding2\Ajay V#\MVC_DotNet_2024\11_Validations\obj\Debug\11_Validations.pdb
 D:\Coding2\Ajay V#\MVC_DotNet_2024\11_Validations\obj\Debug\_11_Validations.Migrations.UserData.resources
 D:\Coding2\Ajay V#\MVC_DotNet_2024\11_Validations\obj\Debug\11_Validations.csproj.GenerateResource.cache
+D:\Coding2\Ajay V#\MVC_DotNet_2024\11_Validations\obj\Debug\_11_Validations.Migrations.updateUsers.resources
+D:\Coding2\Ajay V#\MVC_DotNet_2024\11_Validations\obj\Debug\_11_Validations.Migrations.ChangeUserData.resources
+D:\Coding2\Ajay V#\MVC_DotNet_2024\11_Validations\obj\Debug\_11_Validations.Migrations.ChangeAttributeUsers.resources
+D:\Coding2\Ajay V#\MVC_DotNet_2024\11_Validations\obj\Debug\_11_Validations.Migrations.updateUsers1.resources

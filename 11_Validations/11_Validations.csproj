@@ -111,6 +111,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -118,10 +119,19 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="Scripts\jquery-1.8.0.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -129,9 +139,26 @@
     <Compile Include="Migrations\202412091320182_UserData.Designer.cs">
       <DependentUpon>202412091320182_UserData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202412092003223_updateUsers.cs" />
+    <Compile Include="Migrations\202412092003223_updateUsers.Designer.cs">
+      <DependentUpon>202412092003223_updateUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412092019263_ChangeUserData.cs" />
+    <Compile Include="Migrations\202412092019263_ChangeUserData.Designer.cs">
+      <DependentUpon>202412092019263_ChangeUserData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412092038359_ChangeAttributeUsers.cs" />
+    <Compile Include="Migrations\202412092038359_ChangeAttributeUsers.Designer.cs">
+      <DependentUpon>202412092038359_ChangeAttributeUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412100849226_updateUsers1.cs" />
+    <Compile Include="Migrations\202412100849226_updateUsers1.Designer.cs">
+      <DependentUpon>202412100849226_updateUsers1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entities\User.cs" />
-    <Compile Include="Models\ProductDBContext.cs" />
+    <Compile Include="Models\UserDBContext.cs" />
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +186,10 @@
     <Content Include="Scripts\bootstrap.esm.js.map" />
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Users\Index.cshtml" />
+    <Content Include="Views\Users\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -168,11 +199,22 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202412091320182_UserData.resx">
       <DependentUpon>202412091320182_UserData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412092003223_updateUsers.resx">
+      <DependentUpon>202412092003223_updateUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412092019263_ChangeUserData.resx">
+      <DependentUpon>202412092019263_ChangeUserData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412092038359_ChangeAttributeUsers.resx">
+      <DependentUpon>202412092038359_ChangeAttributeUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412100849226_updateUsers1.resx">
+      <DependentUpon>202412100849226_updateUsers1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

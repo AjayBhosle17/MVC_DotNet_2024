@@ -5,8 +5,9 @@ using System.Web;
 
 namespace _11_Validations.Models
 {
-    public class User
+    public partial class User
     {
+        // database properties
         public int Id { get; set; } 
         public string FirstName { get; set; }
         public string LastName { get; set; }
