@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Code_First_Approch", "10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Validations", "11_Validations\11_Validations.csproj", "{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_MetaData_WithDatabaseFirstApproch", "12_MetaData_WithDatabaseFirstApproch\12_MetaData_WithDatabaseFirstApproch.csproj", "{CA9EF178-330D-446A-9F39-0E8B604F953F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9EF178-330D-446A-9F39-0E8B604F953F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9EF178-330D-446A-9F39-0E8B604F953F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9EF178-330D-446A-9F39-0E8B604F953F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9EF178-330D-446A-9F39-0E8B604F953F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

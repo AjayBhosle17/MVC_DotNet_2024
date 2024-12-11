@@ -49,6 +49,16 @@ namespace ValidationsInMvc.Controllers
             {
                 try
                 {
+
+                   /* bool isEmailExists = _dbContext.Users.Any(u => u.Email == user.Email);
+                    if (isEmailExists) {
+
+                        ModelState.AddModelError("Email", "Email Already Exists/Register");
+                        return View();
+                    }*/
+
+
+
                     // UserModel => User
 
                     User dbUser = new User()
@@ -77,6 +87,15 @@ namespace ValidationsInMvc.Controllers
             {
                 return View();
             }
+        }
+
+        [HttpGet]
+        public JsonResult IsEmailExits(string Email) {
+
+            bool isEmailExits = _dbContext.Users.Any(u => u.Email == Email);
+
+            return Json(!isEmailExits,JsonRequestBehavior.AllowGet);
+     
         }
     }
 }

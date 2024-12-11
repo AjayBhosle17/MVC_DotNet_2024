@@ -132,6 +132,8 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="Custom_Validation\AgeCustom.cs" />
+    <Compile Include="Custom_Validation\CustomDateValidationAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
