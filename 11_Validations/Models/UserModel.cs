@@ -81,5 +81,10 @@ namespace _11_Validations.Models
         [Url(ErrorMessage ="Invalid url")]
         [DataType(DataType.Url,ErrorMessage ="Invalid Url")]
         public string FaceBookProfileUrl { get; set; }
+
+
+        public string Image_path { get; set; }
+
+        public HttpPostedFileBase Image { get; set; }
     }
 }

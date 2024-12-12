@@ -19,5 +19,8 @@ namespace _11_Validations.Models
         public string Password { get; set; }
 
         public string FaceBookProfileUrl { get; set; }
+
+        public string Image_path { get; set; }
+
     }
 }

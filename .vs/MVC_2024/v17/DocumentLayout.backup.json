@@ -3,100 +3,32 @@
   "WorkspaceRootPath": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_validations\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\migrations\\202412121401242_loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\migrations\\202412121401242_loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_validations\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_validations\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\models\\entities\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\models\\entities\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\11_validations\\custom_validation\\customdatevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\custom_validation\\customdatevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\11_validations\\custom_validation\\agecustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\custom_validation\\agecustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\11_validations\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\models\\productdatamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\models\\productdatamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\models\\productdatamodel.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\models\\productdatamodel.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\models\\mycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\models\\mycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\models\\productdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\models\\productdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\models\\productdatamodel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\models\\productdatamodel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\models\\productdatamodel.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\models\\productdatamodel.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_validations\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\models\\productdatamodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\models\\productdatamodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_metadata_withdatabasefirstapproch\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{CA9EF178-330D-446A-9F39-0E8B604F953F}|12_MetaData_WithDatabaseFirstApproch\\12_MetaData_WithDatabaseFirstApproch.csproj|solutionrelative:12_metadata_withdatabasefirstapproch\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_validations\\scripts\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\scripts\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_validations\\scripts\\jquery.validate.unobtrusive.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\scripts\\jquery.validate.unobtrusive.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_validations\\migrations\\202412100849226_updateusers1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\migrations\\202412100849226_updateusers1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_validations\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3C1BBF32-2A5B-450A-83E2-3D13BB3CC77C}|11_Validations\\11_Validations.csproj|solutionrelative:11_validations\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,8 +38,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "202412121401242_LoginModels.cs",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Migrations\\202412121401242_LoginModels.cs",
+              "RelativeDocumentMoniker": "13_Areas\\Migrations\\202412121401242_LoginModels.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Migrations\\202412121401242_LoginModels.cs",
+              "RelativeToolTip": "13_Areas\\Migrations\\202412121401242_LoginModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:01:37.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "13_Areas\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "13_Areas\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:01:10.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDBContext.cs",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Models\\UserDBContext.cs",
+              "RelativeDocumentMoniker": "11_Validations\\Models\\UserDBContext.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Models\\UserDBContext.cs",
+              "RelativeToolTip": "11_Validations\\Models\\UserDBContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:58:06.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Web.config",
+              "RelativeDocumentMoniker": "13_Areas\\Web.config",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Web.config",
+              "RelativeToolTip": "13_Areas\\Web.config",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-12T13:53:57.028Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -122,297 +106,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "11_Validations\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "11_Validations\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwFwAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Models\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "13_Areas\\Models\\UserDbContext.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Models\\UserDbContext.cs",
+              "RelativeToolTip": "13_Areas\\Models\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T03:54:37.662Z",
+              "WhenOpened": "2024-12-12T13:53:17.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "11_Validations\\Models\\UserModel.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Models\\UserModel.cs",
-              "RelativeToolTip": "11_Validations\\Models\\UserModel.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAiwDcAAAA1AAAAAAAAAA==",
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Models\\Entities\\LoginModel.cs",
+              "RelativeDocumentMoniker": "13_Areas\\Models\\Entities\\LoginModel.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Models\\Entities\\LoginModel.cs",
+              "RelativeToolTip": "13_Areas\\Models\\Entities\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T03:55:00.408Z",
+              "WhenOpened": "2024-12-12T13:52:05.265Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Views\\Users\\Create.cshtml",
-              "RelativeDocumentMoniker": "11_Validations\\Views\\Users\\Create.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Views\\Users\\Create.cshtml",
-              "RelativeToolTip": "11_Validations\\Views\\Users\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T09:13:06.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomDateValidationAttribute.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Custom_Validation\\CustomDateValidationAttribute.cs",
-              "RelativeDocumentMoniker": "11_Validations\\Custom_Validation\\CustomDateValidationAttribute.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Custom_Validation\\CustomDateValidationAttribute.cs",
-              "RelativeToolTip": "11_Validations\\Custom_Validation\\CustomDateValidationAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T04:00:49.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AgeCustom.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Custom_Validation\\AgeCustom.cs",
-              "RelativeDocumentMoniker": "11_Validations\\Custom_Validation\\AgeCustom.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Custom_Validation\\AgeCustom.cs",
-              "RelativeToolTip": "11_Validations\\Custom_Validation\\AgeCustom.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:27:32.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MyCategory.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\MyCategory.cs",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Models\\MyCategory.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\MyCategory.cs",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Models\\MyCategory.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:30:08.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Models\\Category.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\Category.cs",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Models\\Category.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:39:52.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductDataModel.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.edmx",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.edmx",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.edmx [Diagram1]",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-12-10T12:04:16.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductDataModel.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.cs",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.cs",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:25:46.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Models\\Product.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\Product.cs",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:25:47.929Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ProductDataModel.edmx.diagram",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.edmx.diagram",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.edmx.diagram",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.edmx.diagram",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.edmx.diagram",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-10T20:22:37.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAUwC0AAAARAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "13_Areas\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "13_Areas\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:06:24.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductDataModel.Designer.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.Designer.cs",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.Designer.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.Designer.cs",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:22:35.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductDataModel.tt",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.tt",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.tt",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.tt",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-10T12:39:45.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAjwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T12:13:21.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Views\\Category\\Create.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAjwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T12:14:00.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductDataModel.Context.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.Context.cs",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.Context.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.Context.cs",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Models\\ProductDataModel.Context.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:06:36.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Web.config",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\Web.config",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\Web.config",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\Web.config",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-10T12:06:55.114Z",
+              "WhenOpened": "2024-12-12T13:51:32.376Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "11_Validations\\Views\\Users\\Index.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "11_Validations\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T09:13:02.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "12_MetaData_WithDatabaseFirstApproch\\App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\12_MetaData_WithDatabaseFirstApproch\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "12_MetaData_WithDatabaseFirstApproch\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:14:36.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "jquery.validate.js",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Scripts\\jquery.validate.js",
-              "RelativeDocumentMoniker": "11_Validations\\Scripts\\jquery.validate.js",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Scripts\\jquery.validate.js",
-              "RelativeToolTip": "11_Validations\\Scripts\\jquery.validate.js",
-              "ViewState": "AgIAANUDAAAAAAAAAAAjwOEDAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-10T10:07:07.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "jquery.validate.unobtrusive.js",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Scripts\\jquery.validate.unobtrusive.js",
-              "RelativeDocumentMoniker": "11_Validations\\Scripts\\jquery.validate.unobtrusive.js",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Scripts\\jquery.validate.unobtrusive.js",
-              "RelativeToolTip": "11_Validations\\Scripts\\jquery.validate.unobtrusive.js",
-              "ViewState": "AgIAAGoBAAAAAAAAAAAjwHUBAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-10T10:08:02.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Web.config",
-              "RelativeDocumentMoniker": "11_Validations\\Web.config",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Web.config",
-              "RelativeToolTip": "11_Validations\\Web.config",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-10T04:36:04.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "202412100849226_updateUsers1.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Migrations\\202412100849226_updateUsers1.cs",
-              "RelativeDocumentMoniker": "11_Validations\\Migrations\\202412100849226_updateUsers1.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\11_Validations\\Migrations\\202412100849226_updateUsers1.cs",
-              "RelativeToolTip": "11_Validations\\Migrations\\202412100849226_updateUsers1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T08:49:28.508Z"
             }
           ]
         }

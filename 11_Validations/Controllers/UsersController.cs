@@ -1,6 +1,7 @@
 ﻿using _11_Validations.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -31,7 +32,9 @@ namespace ValidationsInMvc.Controllers
                     DateOfBirth = u.DateOfBirth,
                     Email = u.Email,
                     Password = u.Password,
-                    FaceBookProfileUrl = u.FaceBookProfileUrl
+                    FaceBookProfileUrl = u.FaceBookProfileUrl,
+                    Image_path = u.Image_path
+                    
                 });
             return View(users);
         }
@@ -44,18 +47,34 @@ namespace ValidationsInMvc.Controllers
 
         [HttpPost]
         public ActionResult Create(UserModel user)
-        {
+         {
             if (ModelState.IsValid)
             {
                 try
                 {
 
-                   /* bool isEmailExists = _dbContext.Users.Any(u => u.Email == user.Email);
-                    if (isEmailExists) {
+                    /* bool isEmailExists = _dbContext.Users.Any(u => u.Email == user.Email);
+                     if (isEmailExists) {
 
-                        ModelState.AddModelError("Email", "Email Already Exists/Register");
-                        return View();
-                    }*/
+                         ModelState.AddModelError("Email", "Email Already Exists/Register");
+                         return View();
+                     }*/
+
+                   
+                    
+                        if(user.Image!=null && user.Image.FileName!=null)
+                        {
+                            // upload . save file to some path on server
+
+                            string folderPath = Server.MapPath("~/Upload");
+                            string filePath = Path.Combine(folderPath, user.Image.FileName);
+
+                            user.Image.SaveAs(filePath); // fill will save inside Upload
+                            user.Image_path = $"/Upload/{user.Image.FileName}"; // it save on database
+
+
+                        }
+                    
 
 
 
@@ -70,7 +89,8 @@ namespace ValidationsInMvc.Controllers
                         DateOfBirth = user.DateOfBirth,
                         Email = user.Email,
                         Password = user.Password,
-                        FaceBookProfileUrl = user.FaceBookProfileUrl
+                        FaceBookProfileUrl = user.FaceBookProfileUrl,
+                        Image_path = user.Image_path
                     };
 
                     _dbContext.Users.Add(dbUser);

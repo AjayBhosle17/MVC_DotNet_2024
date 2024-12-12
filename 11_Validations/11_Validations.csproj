@@ -157,6 +157,10 @@
     <Compile Include="Migrations\202412100849226_updateUsers1.Designer.cs">
       <DependentUpon>202412100849226_updateUsers1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202412121020277_ImagePath.cs" />
+    <Compile Include="Migrations\202412121020277_ImagePath.Designer.cs">
+      <DependentUpon>202412121020277_ImagePath.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entities\User.cs" />
     <Compile Include="Models\UserDBContext.cs" />
@@ -201,6 +205,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Upload\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202412091320182_UserData.resx">
@@ -217,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202412100849226_updateUsers1.resx">
       <DependentUpon>202412100849226_updateUsers1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412121020277_ImagePath.resx">
+      <DependentUpon>202412121020277_ImagePath.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

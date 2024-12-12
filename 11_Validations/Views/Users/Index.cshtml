@@ -32,6 +32,9 @@
         <th>
             @Html.DisplayNameFor(model => model.FaceBookProfileUrl)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image_path)
+        </th>
         <th></th>
     </tr>
 
@@ -58,10 +61,13 @@
         <td>
             @Html.DisplayFor(modelItem => item.FaceBookProfileUrl)
         </td>
+       <td>
+           <img  src="@item.Image_path" alt="No Image" height="40" width="30" />
+       </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
         </td>
     </tr>
 }
