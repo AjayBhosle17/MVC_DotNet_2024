@@ -70,3 +70,4 @@ D:\Coding2\Ajay V#\MVC_DotNet_2024\14_Filters\obj\Debug\14_Filters.csproj.CoreCo
 D:\Coding2\Ajay V#\MVC_DotNet_2024\14_Filters\obj\Debug\14_Filters.csproj.Up2Date
 D:\Coding2\Ajay V#\MVC_DotNet_2024\14_Filters\obj\Debug\14_Filters.dll
 D:\Coding2\Ajay V#\MVC_DotNet_2024\14_Filters\obj\Debug\14_Filters.pdb
+D:\Coding2\Ajay V#\MVC_DotNet_2024\14_Filters\bin\Data\Logs.txt

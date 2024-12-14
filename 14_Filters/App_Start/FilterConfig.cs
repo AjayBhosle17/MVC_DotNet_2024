@@ -12,6 +12,7 @@ namespace _14_Filters.App_Start
         public static void RegisterGlobalFilters(GlobalFilterCollection x)
         {
             x.Add(new CustomErrorHandleAttribute());
+            x.Add(new TrackRequestFilterAttribute());
         }
     }
 }

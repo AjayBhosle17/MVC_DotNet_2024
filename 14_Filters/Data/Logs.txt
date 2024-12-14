@@ -1,0 +1,48 @@
+﻿Home => Index => OnActionExecuting @ 16-12-2024 17:31:15
+______________________________________________
+Home => Index => OnActionExecuted @ 16-12-2024 17:31:19
+______________________________________________
+Home => Index => OnResultExecuting @ 16-12-2024 17:31:19
+______________________________________________
+Home => getPartialViewContent => OnActionExecuting @ 16-12-2024 17:31:20
+______________________________________________
+Home => getPartialViewContent => OnActionExecuted @ 16-12-2024 17:31:20
+______________________________________________
+Home => getPartialViewContent => OnResultExecuting @ 16-12-2024 17:31:20
+______________________________________________
+Home => getPartialViewContent => OnResultExecuted @ 16-12-2024 17:31:20
+______________________________________________
+Home => Index => OnResultExecuted @ 16-12-2024 17:31:20
+______________________________________________
+Home => AddPost => OnActionExecuting @ 16-12-2024 17:31:24
+______________________________________________
+Home => AddPost => OnActionExecuted @ 16-12-2024 17:31:24
+______________________________________________
+Home => AddPost => OnResultExecuting @ 16-12-2024 17:31:24
+______________________________________________
+Home => AddPost => OnResultExecuted @ 16-12-2024 17:31:24
+______________________________________________
+Home => AddPost => OnActionExecuting @ 16-12-2024 17:31:27
+______________________________________________
+Home => AddPost => OnActionExecuted @ 16-12-2024 17:31:27
+______________________________________________
+Home => AddPost => OnResultExecuting @ 16-12-2024 17:31:27
+______________________________________________
+Home => AddPost => OnResultExecuted @ 16-12-2024 17:31:27
+______________________________________________
+Home => Index => OnActionExecuting @ 16-12-2024 17:31:27
+______________________________________________
+Home => Index => OnActionExecuted @ 16-12-2024 17:32:25
+______________________________________________
+Home => Index => OnResultExecuting @ 16-12-2024 17:32:25
+______________________________________________
+Home => getPartialViewContent => OnActionExecuting @ 16-12-2024 17:32:25
+______________________________________________
+Home => getPartialViewContent => OnActionExecuted @ 16-12-2024 17:32:25
+______________________________________________
+Home => getPartialViewContent => OnResultExecuting @ 16-12-2024 17:32:25
+______________________________________________
+Home => getPartialViewContent => OnResultExecuted @ 16-12-2024 17:32:25
+______________________________________________
+Home => Index => OnResultExecuted @ 16-12-2024 17:32:25
+______________________________________________
