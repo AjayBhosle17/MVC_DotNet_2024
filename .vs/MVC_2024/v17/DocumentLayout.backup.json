@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\14_filters\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|solutionrelative:14_filters\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_filters\\views\\shared\\_partialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|solutionrelative:14_filters\\views\\shared\\_partialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\areas\\user\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\areas\\user\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_filters\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|solutionrelative:14_filters\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_filters\\views\\home\\addpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|solutionrelative:14_filters\\views\\home\\addpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_filters\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|solutionrelative:14_filters\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_filters\\views\\home\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|solutionrelative:14_filters\\views\\home\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|d:\\coding2\\ajay v#\\mvc_dotnet_2024\\13_areas\\areas\\user\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\areas\\user\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_areas\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2F5F04F-919F-4BCF-AD08-E3192CA6FB0C}|13_Areas\\13_Areas.csproj|solutionrelative:13_areas\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_filters\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F9FC6B-7DE7-4486-99F4-BF5B623AD044}|14_Filters\\14_Filters.csproj|solutionrelative:14_filters\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,120 +54,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "13_Areas\\Areas\\admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "13_Areas\\Areas\\admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T03:39:59.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "13_Areas\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "13_Areas\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T03:23:40.497Z",
+              "Title": "_PartialView.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Shared\\_PartialView.cshtml",
+              "RelativeDocumentMoniker": "14_Filters\\Views\\Shared\\_PartialView.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Shared\\_PartialView.cshtml",
+              "RelativeToolTip": "14_Filters\\Views\\Shared\\_PartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T12:54:27.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "13_Areas\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "13_Areas\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T03:35:37.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "13_Areas\\Areas\\admin\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "13_Areas\\Areas\\admin\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T03:40:12.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\user\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "13_Areas\\Areas\\user\\Controllers\\DashboardController.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\user\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "13_Areas\\Areas\\user\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "14_Filters\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "14_Filters\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T03:43:16.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "adminAreaRegistration.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\admin\\adminAreaRegistration.cs",
-              "RelativeDocumentMoniker": "13_Areas\\Areas\\admin\\adminAreaRegistration.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\admin\\adminAreaRegistration.cs",
-              "RelativeToolTip": "13_Areas\\Areas\\admin\\adminAreaRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T03:39:10.901Z",
+              "WhenOpened": "2024-12-13T11:40:21.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\user\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "13_Areas\\Areas\\user\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Areas\\user\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "13_Areas\\Areas\\user\\Views\\Dashboard\\Index.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "14_Filters\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "14_Filters\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T11:40:50.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddPost.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Home\\AddPost.cshtml",
+              "RelativeDocumentMoniker": "14_Filters\\Views\\Home\\AddPost.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Home\\AddPost.cshtml",
+              "RelativeToolTip": "14_Filters\\Views\\Home\\AddPost.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwB0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T12:24:35.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index1.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Home\\Index1.cshtml",
+              "RelativeDocumentMoniker": "14_Filters\\Views\\Home\\Index1.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Home\\Index1.cshtml",
+              "RelativeToolTip": "14_Filters\\Views\\Home\\Index1.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T03:43:25.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T11:43:45.128Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "13_Areas\\App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "13_Areas\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBIAAABHAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "14_Filters\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "14_Filters\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T03:49:11.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T11:41:25.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserDbContext.cs",
-              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Models\\UserDbContext.cs",
-              "RelativeDocumentMoniker": "13_Areas\\Models\\UserDbContext.cs",
-              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\13_Areas\\Models\\UserDbContext.cs",
-              "RelativeToolTip": "13_Areas\\Models\\UserDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:53:17.69Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "Index2.cshtml",
+              "DocumentMoniker": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Home\\Index2.cshtml",
+              "RelativeDocumentMoniker": "14_Filters\\Views\\Home\\Index2.cshtml",
+              "ToolTip": "D:\\Coding2\\Ajay V#\\MVC_DotNet_2024\\14_Filters\\Views\\Home\\Index2.cshtml",
+              "RelativeToolTip": "14_Filters\\Views\\Home\\Index2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T12:05:08.092Z"
             }
           ]
         }

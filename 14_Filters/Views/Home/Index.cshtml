@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h2>Home COntroller Index View Page</h2>
+
+        @Html.ActionLink("Index1 Page", "Index1")
+        @Html.ActionLink("Index2 Page", "Index2")
+        @Html.ActionLink("Add Post", "AddPost")
+
+
+        <div>
+            @ViewBag.Comment
+        </div>
+
+    </div>
+    <hr />
+    @Html.Action("getPartialViewContent")
+</body>
+</html>

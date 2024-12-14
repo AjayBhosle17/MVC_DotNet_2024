@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddPost</title>
+</head>
+<body>
+    <div> 
+        <h2>Add a Post</h2>
+
+        @using (Html.BeginForm())
+            {
+            @Html.AntiForgeryToken()
+                <table>
+                    <tr>
+
+                        <td>Comment</td>
+                        <td>
+                            <textarea name="comment" rows="5" cols="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+
+                            <input type="submit" value="Submit Post"/>
+                        </td>
+                    </tr>
+                </table>
+            }
+    </div>
+</body>
+</html>
