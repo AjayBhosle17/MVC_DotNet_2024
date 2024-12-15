@@ -1,3 +1,4 @@
+using _14_Filters.App_Start;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace _14_Filters
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
         }
     }
 }

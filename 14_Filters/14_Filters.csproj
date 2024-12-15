@@ -92,8 +92,10 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="CustomFilter\CustomErrorHandleAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -107,6 +109,9 @@
     <Content Include="Views\Home\Index2.cshtml" />
     <Content Include="Views\Home\AddPost.cshtml" />
     <Content Include="Views\Shared\_PartialView.cshtml" />
+    <Content Include="Views\Home\CacheDemo.cshtml" />
+    <Content Include="Views\Home\Logout.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

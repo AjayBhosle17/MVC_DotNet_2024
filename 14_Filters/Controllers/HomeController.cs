@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
+using _14_Filters.CustomFilter;
 
 namespace _14_Filters.Controllers
 {
@@ -19,6 +21,7 @@ namespace _14_Filters.Controllers
 
         public ActionResult Index1()
         {
+            throw new Exception("Custom Exception Thrown in Index1");
             return View();
         }
        // [RequireHttps]
@@ -29,6 +32,7 @@ namespace _14_Filters.Controllers
         }
 
         [HttpGet]
+        
         public ActionResult AddPost()
         {
             return View();
@@ -47,6 +51,32 @@ namespace _14_Filters.Controllers
         public PartialViewResult getPartialViewContent()
         {
             return PartialView("_PartialView");
+        }
+
+        /*[OutputCache (Duration =10)]*/
+
+        [OutputCache(CacheProfile = "shortCache")]
+        public ActionResult CacheDemo() {
+
+            /*Thread.Sleep(3000);*/
+
+            ViewBag.sleepTime=DateTime.Now;
+            return View();
+        }
+
+
+        // handler error
+
+        [HttpGet]
+        /*[HandleError]*/
+
+       /* [CustomErrorHandleAttribute]*/
+        public ActionResult Logout() {
+
+            int x = 10;
+            int y = 0;
+            int z = x/y;
+            return View();
         }
     }
 }
